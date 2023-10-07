@@ -45,7 +45,7 @@ body {
   
   /* Change the color of links on hover */
   .navbar a:hover {
-    box-shadow: 0px 2px  rgb(46, 3, 46);
+    box-shadow: 0px 2px  rgb(73, 12, 73);
     font-weight:bolder;
     transition: 0.5s;
     color: #C0C0C0;
@@ -53,5 +53,60 @@ body {
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    color: black;
+    color: rgb(73, 12, 73);
   }
+
+/* Services section */
+.features{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+.feature-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+.feature-col{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 400px;
+}
+
+.feature-col img{
+  width: 300px;
+  background-color: white;
+} 
+
+
+.feature-col h2{
+  display: inline-block;
+  background-color: purple;
+  border-radius: 10px;
+  border-style: double;
+  border: 2px solid purple;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 15vw;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.feature-col a{
+  color: white;
+}
+
+.servicesBox {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  font-family: Verdana;
+  margin-bottom: 10px;
+}
+
