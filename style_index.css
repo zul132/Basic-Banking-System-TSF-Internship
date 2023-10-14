@@ -1,6 +1,13 @@
 body {
     background-color: purple;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+  width: 100%;
 }
 
 .header{
@@ -102,11 +109,31 @@ body {
   color: white;
 }
 
+.feature-col a:hover{
+  color: rgb(234, 163, 238);
+}
+
+.feature-col h2{
+  padding-left: 68px;
+}
+
 .servicesBox {
   color: white;
   font-size: 2vw;
   text-align: center;
   font-family: Verdana;
   margin-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  font-style: normal;
+  text-align: center;
+  padding: 2px;
+  margin-top: 2px;
 }
 
