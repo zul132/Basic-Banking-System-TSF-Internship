@@ -13,9 +13,9 @@
 
         <div class="navbar">
             <br />
-            <a class="active" href="index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="https://github.com/zul132" target="_blank">About Us</a>
-            <a href="customers.php">View Customers</a>
+            <a class="active" href="customers.php">View Customers</a>
             <a href="transferMoney.php">Transfer Money</a>
             <a href="transactions.php">Transaction History</a>
             <a href="https://www.linkedin.com/in/fathima-zulaikha-2741a4217/" target="_blank">Contact Us</a>
