@@ -24,8 +24,8 @@
     </div>
 
     <div class="contentbox">
-        <h1> TRANSACTION HISTORY </h1>
-        <table class="customer">
+        <h1> Transaction History </h1>
+        <table class="transaction">
             <tr>
                 <th> ID </th>
                 <th> SENDER'S ACCOUNT NO. </th>
@@ -51,11 +51,11 @@
                 if (!$con){
                     die("Connection to this database failed due to ".mysqli_connect_error());
                 }
-                $sql="Select * from transactions WHERE ID>202200000";
+                $sql="Select * from transactions";
                 $result= $con-> query($sql);
                 if ($result-> num_rows>0){
                     while ($row = $result-> fetch_assoc()){
-                        echo "<tr><td>".$row["ID"]."</td><td>".$row["Sender_AccountNo"]."</td><td>".$row["Sender_Name"]."</td><td>".$row["Receiver_AccountNo"]."</td><td>".$row["Receiver_Name"]."</td><td>".$row["Amount_transferred"]."</td><td>".$row["Sender_Balance"]."</td><td>".$row["Receiver_Balance"]."</td><td>".$row["Status"]."</td><td>".$row["Transaction_Date"]."</td></tr>";
+                        echo "<tr><td>".$row["ID"]."</td><td>".$row["Sender_AccountNo"]."</td><td>".$row["Sender_Name"]."</td><td>".$row["Receiver_AccountNo"]."</td><td>".$row["Receiver_Name"]."</td><td>".$row["Amount_transferred"]."</td><td>".$row["Sender_Balance"]."</td><td>".$row["Receiver_Balance"]."</td><td>".$row["Status"]."</td><td>".$row["Transaction_Time"]."</td></tr>";
                     }
                     echo "</table>";
                 }

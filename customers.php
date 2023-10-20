@@ -24,7 +24,7 @@
     </div>
 
     <div class="contentbox" cellspacing="20px" cellpadding="20px">
-        <h1> ALL CUSTOMERS </h1>
+        <h1> Our Customers </h1>
 
         <table class="customer" style="color: white">
             <tr>
@@ -60,7 +60,7 @@
                 }
                 $con->close();
             ?>
-
+    </div>
     <div class="footer">
         Designed and Developed by Fathima Zulaikha
     </div>

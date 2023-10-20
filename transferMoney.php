@@ -24,7 +24,7 @@
     </div>
 
     <div class="contentbox">
-        <h1> TRANSFER MONEY </h1>
+        <h1> Make a Transaction </h1>
 
         <div class="subcontent">
             <form action="transferMoney.php" method="POST">    
