@@ -130,7 +130,7 @@
                                 $insert=true;
                             }
                             else{
-                                echo "ERROR : $sql <br> $con->error";
+                                echo "ERROR Transaction Unsuccesful";
                             }
                         }
                         else{
