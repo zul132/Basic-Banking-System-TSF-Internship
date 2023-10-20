@@ -130,12 +130,11 @@
                                 $insert=true;
                             }
                             else{
-                                echo "ERROR Transaction Unsuccesful";
+                                echo "<h3>ERROR Insert Unsuccesful</h3>";
                             }
                         }
                         else{
                             echo "<h3 style='color: brown'> ERROR! Invalid Account Number  </h3>";
-                            echo "ERROR : $sql <br> $con->error";
                         }
                     }
                     if ($amount>$sender_bal){
