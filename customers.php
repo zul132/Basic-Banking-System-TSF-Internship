@@ -26,7 +26,7 @@
     <div class="contentbox" cellspacing="20px" cellpadding="20px">
         <h1> ALL CUSTOMERS </h1>
 
-        <table class="customer" style="font-color: white">
+        <table class="customer" style="color: white">
             <tr>
                 <th> Name </th>
                 <th> Email </th>
