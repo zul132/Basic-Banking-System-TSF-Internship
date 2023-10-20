@@ -47,11 +47,11 @@
                     die("Connection to this database failed due to ".mysqli_connect_error());
                 }
 
-                $sql="Select Name, Email, Account_no, Balance from customers";
+                $sql="Select Name, Email, AccountNo, Balance from customers";
                 $result= $con-> query($sql);
                 if ($result-> num_rows>0){
                     while ($row = $result-> fetch_assoc()){
-                        echo "<tr><td>".$row["Name"]."</td><td>".$row["Email"]."</td><td>".$row["Account_no"]."</td><td>".$row["Balance"]."</td></tr>";
+                        echo "<tr><td>".$row["Name"]."</td><td>".$row["Email"]."</td><td>".$row["AccountNo"]."</td><td>".$row["Balance"]."</td></tr>";
                     }
                     echo "</table>";
                 }
